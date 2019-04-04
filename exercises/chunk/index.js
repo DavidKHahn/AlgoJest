@@ -14,7 +14,7 @@
 //     const chunked = [];
 //     // iterate through 'for of' loop
 //     for (let x of array){
-//         // chunk currently working with starts checking index from the end of array ([chunked.length - 1])
+//         // last = value of array currently in use, indexes are checked from the end of array ([chunked.length - 1])
 //         const last = chunked[chunked.length - 1];
 //         // if index does not exist or the 'chunked' array equals the size then push new element into chunked array
 //         if (!last || last.length === size) {
